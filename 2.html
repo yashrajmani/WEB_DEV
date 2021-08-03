@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css">
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1 class="main">
+      <a href="1.html">PAGE 1</a>
+    </h1>
+    <hr />
+    <h2 class="main">FORMS ::::</h2>
+    <form>
+      <h3 class="main">CONTACT INFORMATION :</h3>
+      <p>NAME: <input type="text" name="name" required ></p>
+      <fieldset>
+        <legend>CHOOSE GENDER :</legend>
+        <p>MALE <input type="radio" name="gender" id="male" ></p>
+        <p>FEMALE: <input type="radio" name="gender" id="female" ></p>
+      </fieldset>
+      <p>
+        Address
+        <textarea name="address" id="address" cols="100" rows="6"> </textarea>
+      </p>
+      <p>ENTER EMAIL: <input type="email" name="email" id="email" ></p>
+      <p>ENTER pin CODE: <input type="number" name="pin" id="pin" ></p>
+
+      <h2 class="main">PAYMENT INFO:</h2>
+      <p>
+        CARD TYPE: 
+        <select name="card_type" id ="card_type"> 
+          <option value="">---SELECT CARD -------</option>
+          <option value="VISA">VISA </option>
+          <option value="RUPAY">RUPAY</option>
+          <option value="MASTERCARD">MASTER CARD</option>
+        </select>
+
+    </p>
+
+    <p>
+      CARD NUMBER <input type="number" name="cno" id ="cno">
+    </p>
+    
+    <p>
+      Valid thru:   <input type="date" name="cdate" id ="cdate"> 
+    </p>
+    <p>
+      CVV : <input type="password">
+      </p>
+      <div1 class="pay">
+      <input type="submit" value="PAY NOW " >
+      </div1>
+    </form>
+    </div>
+  </body>
+</html>
